@@ -1,0 +1,50 @@
+configs:
+  pgadmin-servers:
+    content: |
+      {
+        "Servers": {
+          "1": {
+            "Name": "Coursework",
+            "Group": "Servers",
+            "Host": "CourseworkDB",
+            "Port": 5432,
+            "MaintenanceDB": "Coursework",
+            "Username": "postgres"
+          }
+        }
+      }
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: CourseworkDB
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: Coursework
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+      - ./data:/import
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+      PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED: "False"
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+    configs:
+      - source: pgadmin-servers
+        target: /pgadmin4/servers.json
+        mode: 0444
+
+volumes:
+  postgres_data:
