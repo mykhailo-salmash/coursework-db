@@ -1,0 +1,119 @@
+result_id,appointment_id,summary,created_at
+1,1,Migraine confirmed. Prescribed Sumatriptan 50mg.,2024-11-01 09:35:00
+2,2,Patient is healthy. No abnormalities found.,2024-11-01 11:00:00
+3,3,Teeth cleaning completed. Gum health good.,2024-11-02 11:50:00
+4,4,Vaccine administered without complications.,2024-11-02 12:20:00
+5,5,ECG normal. No signs of arrhythmia.,2024-11-03 10:10:00
+6,6,Lungs clear. No signs of pneumonia or tuberculosis.,2024-11-03 14:30:00
+7,8,Blood samples collected for CBC and Biochemistry.,2024-11-04 08:50:00
+8,9,Mild gastritis observed. Diet recommended.,2024-11-05 10:15:00
+9,10,Vision 20/20. Hearing normal.,2024-11-05 15:40:00
+10,11,Muscle tension reduced. Exercises assigned.,2024-11-06 11:55:00
+11,12,Biopsy negative for malignancy.,2024-11-06 13:40:00
+12,13,Heart valves functioning normally.,2024-11-07 10:00:00
+13,14,Blood pressure stabilized. Continue current dosage.,2024-11-07 16:30:00
+14,15,Tonsillectomy successful. Recovery normal.,2024-11-08 09:15:00
+15,16,Thyroid slightly enlarged. Hormones check ordered.,2024-11-08 15:10:00
+16,17,Implant placed successfully. Rehab starts tomorrow.,2024-11-09 13:30:00
+17,19,BP 120/80. Perfect.,2024-11-10 09:15:00
+18,20,Concussion mild. Observation required.,2024-11-10 23:15:00
+19,21,Cardiac tolerance good. No ischemia.,2024-11-11 12:00:00
+20,22,Bladder lining healthy.,2024-11-11 15:00:00
+21,23,Root canal filled. Temporary crown placed.,2024-11-12 11:40:00
+22,24,No cavities found.,2024-11-12 16:10:00
+23,25,Appendix removed. No infection spread.,2024-11-13 13:15:00
+24,26,Muscle spasm relieved.,2024-11-13 17:10:00
+25,27,Topical cream prescribed for acne.,2024-11-14 11:40:00
+26,28,LDL Cholesterol elevated. Statins discussed.,2024-11-14 09:20:00
+27,29,Multiple fractures. Surgery scheduled.,2024-11-15 04:30:00
+28,30,Genetic risks low.,2024-11-15 15:15:00
+29,31,Polyp found in nasal cavity.,2024-11-16 10:40:00
+30,32,Prescription renewed for 3 months.,2024-11-16 11:20:00
+31,33,Anxiety disorder diagnosed. Therapy started.,2024-11-17 14:10:00
+32,34,Tension headache. Lifestyle changes advised.,2024-11-17 16:00:00
+33,35,Patient stable. Mobility limited.,2024-11-18 11:15:00
+34,36,Small kidney stone detected (3mm).,2024-11-18 16:40:00
+35,37,Vision restored to 20/25.,2024-11-19 09:45:00
+36,38,Mild hearing loss in left ear.,2024-11-19 14:40:00
+37,39,Mole removed. Sent to pathology.,2024-11-20 11:30:00
+38,40,Blockage in left coronary artery (30%).,2024-11-20 14:45:00
+39,41,Low carb diet plan created.,2024-11-21 11:10:00
+40,42,Procedure successful. No swelling.,2024-11-21 15:40:00
+41,43,Records provided to patient.,2024-11-22 09:40:00
+42,44,General health good.,2024-11-22 14:40:00
+43,45,History taken. Allergies noted.,2024-11-23 11:00:00
+44,46,Plaque removed.,2024-11-23 13:00:00
+45,47,Vaccine batch #4521 used.,2024-11-24 11:20:00
+46,48,Arrhythmia benign.,2024-11-24 15:40:00
+47,49,Musculoskeletal pain. Ibuprofen prescribed.,2024-11-25 09:30:00
+48,50,SSRI prescribed.,2024-11-25 15:10:00
+49,51,Hemoglobin low. Iron supplements needed.,2024-11-26 08:20:00
+50,52,Gastritis acute.,2024-11-26 11:10:00
+51,53,Normal results.,2024-11-27 11:40:00
+52,54,Range of motion improved.,2024-11-27 16:00:00
+53,55,Dermatitis. Ointment given.,2024-11-28 13:40:00
+54,56,Heart function normal.,2024-11-28 17:00:00
+55,57,Wound healing well.,2024-11-29 10:00:00
+56,58,Operation successful.,2024-11-29 12:15:00
+57,59,Lymph nodes normal.,2024-11-30 10:40:00
+58,60,Hip replacement scheduled.,2024-11-30 16:15:00
+59,61,Allergic reaction. Antihistamines given.,2024-12-01 10:40:00
+60,62,Stage 1 Hypertension.,2024-12-01 11:20:00
+61,63,Viral infection confirmed.,2024-12-02 21:15:00
+62,64,Cardiovascular fitness average.,2024-12-02 15:00:00
+63,65,UTI confirmed. Antibiotics prescribed.,2024-12-03 09:55:00
+64,66,Pulpitis. Medication given.,2024-12-03 12:40:00
+65,67,No masses detected.,2024-12-04 15:40:00
+66,68,Appendicitis ruled out.,2024-12-04 11:10:00
+67,69,Herniated disc L4-L5.,2024-12-05 17:10:00
+68,70,Hormonal acne.,2024-12-05 13:40:00
+69,71,Triglycerides normal.,2024-12-06 09:25:00
+70,72,Fractured rib.,2024-12-06 05:15:00
+71,73,Carrier for CF negative.,2024-12-07 12:10:00
+72,74,Acute sinusitis.,2024-12-07 10:40:00
+73,75,Prescription renewed.,2024-12-08 12:20:00
+74,76,Panic disorder. CBT recommended.,2024-12-08 15:10:00
+75,77,Chronic migraine.,2024-12-09 09:55:00
+76,78,Flu type A positive.,2024-12-09 12:10:00
+77,79,Bacteria present in urine.,2024-12-10 15:40:00
+78,80,Refraction check completed.,2024-12-10 10:40:00
+79,81,Mild conductive hearing loss.,2024-12-11 14:40:00
+80,82,Cryotherapy performed.,2024-12-11 16:30:00
+81,83,Venous insufficiency mild.,2024-12-12 12:40:00
+82,84,BMI 32. Weight loss plan initiated.,2024-12-12 11:10:00
+83,85,Fillers applied.,2024-12-13 13:40:00
+84,86,Records released.,2024-12-13 09:40:00
+85,87,Healthy.,2024-12-14 10:40:00
+86,88,Fit for work.,2024-12-14 11:55:00
+87,89,Cavity filled.,2024-12-15 12:55:00
+88,90,Vaccine given.,2024-12-15 15:20:00
+89,91,Tachycardia noted.,2024-12-16 09:40:00
+90,92,Bronchitis mild.,2024-12-16 14:30:00
+91,93,Progress noted.,2024-12-17 12:10:00
+92,94,Blood drawn.,2024-12-17 08:50:00
+93,95,H. Pylori positive.,2024-12-18 10:10:00
+94,96,Normal.,2024-12-18 15:40:00
+95,97,Tendinitis.,2024-12-19 13:55:00
+96,98,Mole suspicious. Biopsy ordered.,2024-12-19 10:40:00
+97,99,Mitral valve prolapse mild.,2024-12-20 09:55:00
+98,100,Sutures removed. Healing well.,2024-12-20 16:30:00
+99,101,Septum repaired.,2024-12-21 09:15:00
+100,102,Iodine deficiency suspected.,2024-12-21 14:40:00
+101,103,Prosthesis fits well.,2024-12-22 13:15:00
+102,104,Atopic dermatitis.,2024-12-22 15:40:00
+103,105,BP elevated.,2024-12-23 09:15:00
+104,106,Salmonella confirmed.,2024-12-23 22:15:00
+105,107,Angina stable.,2024-12-24 11:55:00
+106,108,Prostate normal size.,2024-12-24 14:55:00
+107,111,Emergency obstruction cleared.,2024-12-26 13:15:00
+108,112,Muscle relaxants prescribed.,2024-12-26 17:10:00
+109,113,Hydration advised.,2024-12-27 11:40:00
+110,114,Lipids high.,2024-12-27 09:20:00
+111,115,Concussion.,2024-12-28 06:15:00
+112,116,Paternity confirmed.,2024-12-28 15:10:00
+113,117,Rhinitis.,2024-12-29 10:40:00
+114,118,Refill authorized.,2024-12-29 11:20:00
+115,119,Depression moderate.,2024-12-30 14:10:00
+116,120,Reflexes normal.,2024-12-30 15:55:00
+117,121,Patient comfortable.,2024-12-31 11:10:00
+118,122,Sand in kidneys.,2024-12-31 16:40:00

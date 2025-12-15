@@ -1,0 +1,151 @@
+procedure_id,name,duration,price,required_role
+1,General Consultation,30 minutes,500.00,doctor
+2,Initial Examination,45 minutes,600.00,doctor
+3,Follow-up Visit,20 minutes,300.00,doctor
+4,Blood Test (CBC),15 minutes,150.00,nurse
+5,X-Ray Chest,20 minutes,400.00,technician
+6,MRI Scan (Brain),60 minutes,2500.00,technician
+7,CT Scan (Abdomen),45 minutes,2200.00,technician
+8,Ultrasound (Thyroid),30 minutes,450.00,specialist
+9,Ultrasound (Abdomen),30 minutes,550.00,specialist
+10,Vaccination (Flu),15 minutes,200.00,nurse
+11,Vaccination (COVID-19),15 minutes,0.00,nurse
+12,Cardiac Stress Test,45 minutes,1200.00,doctor
+13,ECG (Electrocardiogram),20 minutes,350.00,nurse
+14,Physical Therapy Session,60 minutes,700.00,specialist
+15,Dental Cleaning,45 minutes,800.00,doctor
+16,Tooth Extraction,60 minutes,1500.00,doctor
+17,Root Canal Treatment,90 minutes,2000.00,doctor
+18,Vision Test,30 minutes,400.00,specialist
+19,Hearing Test,30 minutes,450.00,specialist
+20,Skin Biopsy,30 minutes,900.00,doctor
+21,Wound Dressing,20 minutes,250.00,nurse
+22,IV Drip Therapy,60 minutes,600.00,nurse
+23,Suture Removal,20 minutes,200.00,nurse
+24,Casting (Broken Bone),45 minutes,1100.00,doctor
+25,Mammography,30 minutes,850.00,technician
+26,Colonoscopy,90 minutes,3500.00,doctor
+27,Gastroscopy,60 minutes,3200.00,doctor
+28,Allergy Testing,45 minutes,1000.00,specialist
+29,Dietary Consultation,60 minutes,600.00,specialist
+30,Psychological Counseling,60 minutes,900.00,specialist
+31,Psychiatric Evaluation,60 minutes,1200.00,doctor
+32,Neurological Assessment,45 minutes,1100.00,doctor
+33,Orthopedic Consultation,30 minutes,700.00,doctor
+34,Cardiology Consultation,30 minutes,800.00,doctor
+35,Dermatology Consultation,30 minutes,650.00,doctor
+36,Gynecology Exam,30 minutes,750.00,doctor
+37,Urology Exam,30 minutes,750.00,doctor
+38,Pediatric Checkup,30 minutes,500.00,doctor
+39,Vaccination (Tetanus),15 minutes,150.00,nurse
+40,Blood Pressure Monitoring,10 minutes,50.00,nurse
+41,Glucose Monitoring,10 minutes,50.00,nurse
+42,Cholesterol Check,15 minutes,200.00,nurse
+43,Liver Function Test,15 minutes,250.00,nurse
+44,Kidney Function Test,15 minutes,250.00,nurse
+45,Thyroid Function Test,15 minutes,250.00,nurse
+46,Urine Analysis,15 minutes,100.00,nurse
+47,Stool Analysis,15 minutes,100.00,nurse
+48,Endoscopy,60 minutes,2800.00,doctor
+49,Bronchoscopy,60 minutes,3000.00,doctor
+50,Cystoscopy,45 minutes,2500.00,doctor
+51,Laparoscopy,120 minutes,5000.00,doctor
+52,Arthroscopy,90 minutes,4500.00,doctor
+53,Biopsy (Liver),60 minutes,2000.00,doctor
+54,Biopsy (Kidney),60 minutes,2200.00,doctor
+55,Biopsy (Prostate),45 minutes,1800.00,doctor
+56,Lumbar Puncture,60 minutes,2500.00,doctor
+57,Bone Marrow Aspiration,60 minutes,3000.00,doctor
+58,Electroencephalogram (EEG),60 minutes,1500.00,technician
+59,Electromyography (EMG),45 minutes,1200.00,technician
+60,Spirometry,30 minutes,400.00,nurse
+61,Sleep Study (Polysomnography),480 minutes,4000.00,technician
+62,Holter Monitoring (24h),30 minutes,1000.00,nurse
+63,Echocardiogram,45 minutes,1200.00,technician
+64,Doppler Ultrasound,45 minutes,900.00,specialist
+65,Angiography,90 minutes,4500.00,doctor
+66,Cardiac Catheterization,120 minutes,6000.00,doctor
+67,Pacemaker Check,30 minutes,800.00,doctor
+68,Dialysis Session,240 minutes,2500.00,nurse
+69,Chemotherapy Session,180 minutes,3000.00,nurse
+70,Radiation Therapy,30 minutes,1500.00,technician
+71,Physiotherapy (Back),45 minutes,600.00,specialist
+72,Physiotherapy (Knee),45 minutes,600.00,specialist
+73,Physiotherapy (Shoulder),45 minutes,600.00,specialist
+74,Massage Therapy,60 minutes,500.00,specialist
+75,Acupuncture,45 minutes,700.00,specialist
+76,Chiropractic Adjustment,30 minutes,600.00,specialist
+77,Speech Therapy,45 minutes,550.00,specialist
+78,Occupational Therapy,60 minutes,650.00,specialist
+79,Nutritional Counseling,45 minutes,500.00,specialist
+80,Smoking Cessation Counseling,30 minutes,400.00,specialist
+81,Weight Management Program,60 minutes,500.00,specialist
+82,Diabetes Education,60 minutes,450.00,nurse
+83,Prenatal Class,90 minutes,300.00,nurse
+84,Postnatal Care,45 minutes,400.00,nurse
+85,Lactation Consulting,60 minutes,500.00,specialist
+86,Genetic Counseling,60 minutes,1200.00,doctor
+87,Infertility Consultation,60 minutes,1500.00,doctor
+88,IVF Procedure,120 minutes,8000.00,doctor
+89,Vasectomy,60 minutes,2500.00,doctor
+90,Tubal Ligation,60 minutes,3000.00,doctor
+91,Circumcision,45 minutes,2000.00,doctor
+92,Hemorrhoid Treatment,30 minutes,1000.00,doctor
+93,Varicose Vein Treatment,60 minutes,1800.00,doctor
+94,Mole Removal,20 minutes,500.00,doctor
+95,Acne Treatment,30 minutes,400.00,specialist
+96,Botox Injection,30 minutes,1200.00,doctor
+97,Dermal Filler,45 minutes,1500.00,doctor
+98,Laser Hair Removal,60 minutes,800.00,specialist
+99,Tattoo Removal,60 minutes,1000.00,specialist
+100,Chemical Peel,45 minutes,600.00,specialist
+101,Microdermabrasion,30 minutes,500.00,specialist
+102,Facial Treatment,60 minutes,400.00,specialist
+103,Audiometry,30 minutes,350.00,technician
+104,Tympanometry,15 minutes,200.00,technician
+105,Nasal Endoscopy,30 minutes,800.00,doctor
+106,Ear Wax Removal,20 minutes,250.00,nurse
+107,Tonsillectomy,60 minutes,2500.00,doctor
+108,Adenoidectomy,60 minutes,2200.00,doctor
+109,Septoplasty,90 minutes,3500.00,doctor
+110,Rhinoplasty,120 minutes,5000.00,doctor
+111,Blepharoplasty,90 minutes,4000.00,doctor
+112,Otoplasty,90 minutes,3500.00,doctor
+113,Cataract Surgery,60 minutes,3000.00,doctor
+114,LASIK Surgery,30 minutes,2500.00,doctor
+115,Glaucoma Test,20 minutes,300.00,specialist
+116,Retinal Scan,30 minutes,500.00,technician
+117,Eye Muscle Surgery,60 minutes,3500.00,doctor
+118,Corneal Transplant,120 minutes,8000.00,doctor
+119,Knee Replacement,180 minutes,15000.00,doctor
+120,Hip Replacement,180 minutes,16000.00,doctor
+121,Shoulder Replacement,180 minutes,14000.00,doctor
+122,ACL Reconstruction,120 minutes,7000.00,doctor
+123,Carpal Tunnel Release,45 minutes,2000.00,doctor
+124,Spinal Fusion,240 minutes,20000.00,doctor
+125,Hernia Repair,90 minutes,4000.00,doctor
+126,Appendectomy,60 minutes,3500.00,doctor
+127,Cholecystectomy,90 minutes,4500.00,doctor
+128,Mastectomy,120 minutes,6000.00,doctor
+129,Lumpectomy,60 minutes,3000.00,doctor
+130,Hysterectomy,120 minutes,5500.00,doctor
+131,C-Section,60 minutes,5000.00,doctor
+132,Natural Birth Delivery,180 minutes,4000.00,doctor
+133,Epidural Anesthesia,30 minutes,800.00,doctor
+134,General Anesthesia,60 minutes,1000.00,doctor
+135,Local Anesthesia,15 minutes,200.00,doctor
+136,Sedation,30 minutes,400.00,doctor
+137,Pain Management Consult,45 minutes,700.00,specialist
+138,Palliative Care Consult,60 minutes,800.00,doctor
+139,Hospice Care Admission,90 minutes,1000.00,administrator
+140,Medical Certificate Issue,15 minutes,150.00,administrator
+141,Insurance Claim Processing,30 minutes,200.00,administrator
+142,Medical Records Copying,30 minutes,100.00,administrator
+143,Prescription Renewal,15 minutes,150.00,doctor
+144,Telemedicine Consult,30 minutes,400.00,doctor
+145,Home Visit (Doctor),60 minutes,1000.00,doctor
+146,Home Visit (Nurse),45 minutes,500.00,nurse
+147,Ambulance Transport,60 minutes,2000.00,technician
+148,Emergency Room Visit,60 minutes,800.00,doctor
+149,Trauma Care (Level 1),120 minutes,5000.00,doctor
+150,CPR Training,120 minutes,300.00,specialist

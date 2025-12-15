@@ -1,0 +1,151 @@
+equipment_id,room_id,name,serial_number,status,last_maintenance
+1,1,Digital Stethoscope,EQ-1001,operational,2024-10-15
+2,1,Examination Table,EQ-1002,operational,2024-09-20
+3,2,Blood Pressure Monitor,EQ-1003,operational,2024-11-01
+4,4,Surgical Light,EQ-1004,maintenance,2024-08-15
+5,4,Anesthesia Machine,EQ-1005,operational,2024-10-10
+6,5,Examination Lamp,EQ-1006,operational,2024-09-05
+7,6,Ultrasound Machine,EQ-1007,operational,2024-11-10
+8,8,ECG Machine,EQ-1008,operational,2024-10-25
+9,9,Defibrillator,EQ-1009,operational,2024-11-05
+10,10,Scalpel Set,EQ-1010,operational,2024-11-15
+11,11,Thermometer,EQ-1011,operational,2024-11-20
+12,13,Surgical Table,EQ-1012,operational,2024-10-01
+13,13,Electrocautery Unit,EQ-1013,maintenance,2024-09-15
+14,16,X-Ray Machine,EQ-1014,operational,2024-11-01
+15,19,MRI Scanner,EQ-1015,operational,2024-08-20
+16,20,Surgical Drill,EQ-1016,operational,2024-10-30
+17,20,Patient Monitor,EQ-1017,operational,2024-11-12
+18,22,Oxygen Tank,EQ-1018,operational,2024-11-18
+19,25,Otoscope,EQ-1019,operational,2024-10-05
+20,26,Microscope,EQ-1020,operational,2024-09-25
+21,30,Centrifuge,EQ-1021,operational,2024-11-08
+22,31,Autoclave,EQ-1022,maintenance,2024-10-12
+23,33,Dental Chair,EQ-1023,operational,2024-11-02
+24,33,Dental Drill,EQ-1024,operational,2024-11-05
+25,37,Heart-Lung Machine,EQ-1025,operational,2024-10-20
+26,40,Wheelchair,EQ-1026,broken,2024-07-15
+27,41,Infusion Pump,EQ-1027,operational,2024-11-15
+28,43,Ventilator,EQ-1028,operational,2024-11-10
+29,43,Emergency Cart,EQ-1029,operational,2024-11-18
+30,45,CT Scanner,EQ-1030,operational,2024-09-10
+31,48,Laparoscopic Tower,EQ-1031,maintenance,2024-10-05
+32,50,Opthalmoscope,EQ-1032,operational,2024-11-01
+33,52,Laser System,EQ-1033,operational,2024-10-28
+34,55,Suction Pump,EQ-1034,operational,2024-11-08
+35,56,Endoscope,EQ-1035,operational,2024-11-12
+36,60,Orthopedic Bed,EQ-1036,operational,2024-10-15
+37,64,C-Arm X-Ray,EQ-1037,maintenance,2024-09-30
+38,65,Fetal Monitor,EQ-1038,operational,2024-11-20
+39,68,Dialysis Machine,EQ-1039,operational,2024-10-25
+40,70,Nebulizer,EQ-1040,operational,2024-11-05
+41,72,Glucometer,EQ-1041,operational,2024-11-15
+42,75,Audiometer,EQ-1042,operational,2024-10-10
+43,77,Resuscitator,EQ-1043,operational,2024-11-02
+44,80,Spirometer,EQ-1044,operational,2024-10-18
+45,82,Dermatoscope,EQ-1045,operational,2024-11-10
+46,85,Mammography Unit,EQ-1046,operational,2024-09-15
+47,88,Incubator,EQ-1047,operational,2024-11-12
+48,90,Pulse Oximeter,EQ-1048,operational,2024-11-22
+49,92,Refrigerator (Med),EQ-1049,operational,2024-10-05
+50,95,UV Lamp,EQ-1050,operational,2024-11-01
+51,98,Cryotherapy Unit,EQ-1051,operational,2024-10-20
+52,100,Examination Stool,EQ-1052,operational,2024-11-15
+53,101,Refractor,EQ-1053,operational,2024-09-25
+54,103,Slit Lamp,EQ-1054,operational,2024-10-12
+55,106,Treadmill,EQ-1055,operational,2024-11-08
+56,109,ENT Workstation,EQ-1056,operational,2024-10-30
+57,112,Syringe Pump,EQ-1057,operational,2024-11-18
+58,115,Wheelchair,EQ-1058,operational,2024-10-15
+59,118,Surgical Robot,EQ-1059,maintenance,2024-09-10
+60,120,Crutches,EQ-1060,operational,2024-11-20
+61,122,Scale,EQ-1061,operational,2024-11-25
+62,125,Height Rod,EQ-1062,operational,2024-11-25
+63,128,Computer Terminal,EQ-1063,operational,2024-11-10
+64,130,Printer,EQ-1064,operational,2024-10-05
+65,132,Stethoscope,EQ-1065,operational,2024-11-15
+66,135,Reflex Hammer,EQ-1066,operational,2024-11-20
+67,138,Tuning Fork,EQ-1067,operational,2024-11-20
+68,140,Snellen Chart,EQ-1068,operational,2024-10-15
+69,142,Biopsy Gun,EQ-1069,operational,2024-11-05
+70,145,Cautery Pen,EQ-1070,operational,2024-11-12
+71,1,Desk,EQ-1071,operational,2024-08-20
+72,5,Chair,EQ-1072,operational,2024-08-20
+73,8,Filing Cabinet,EQ-1073,operational,2024-08-20
+74,12,Examination Light,EQ-1074,operational,2024-09-15
+75,15,Mayo Stand,EQ-1075,operational,2024-10-10
+76,18,IV Pole,EQ-1076,operational,2024-11-05
+77,21,Kick Bucket,EQ-1077,operational,2024-11-15
+78,24,Linen Cart,EQ-1078,operational,2024-11-20
+79,27,Waste Bin (Biohazard),EQ-1079,operational,2024-11-25
+80,29,Sharps Container,EQ-1080,operational,2024-11-25
+81,32,Hand Sanitizer Dispenser,EQ-1081,operational,2024-11-25
+82,35,Glove Box Holder,EQ-1082,operational,2024-11-25
+83,38,Paper Towel Dispenser,EQ-1083,operational,2024-11-25
+84,42,Privacy Screen,EQ-1084,operational,2024-10-05
+85,44,Step Stool,EQ-1085,operational,2024-10-05
+86,47,Wall Clock,EQ-1086,operational,2024-10-05
+87,49,Whiteboard,EQ-1087,operational,2024-10-05
+88,51,Phone,EQ-1088,operational,2024-10-05
+89,53,Intercom,EQ-1089,operational,2024-10-05
+90,57,Air Purifier,EQ-1090,operational,2024-11-10
+91,59,Dehumidifier,EQ-1091,operational,2024-11-10
+92,61,Heater,EQ-1092,operational,2024-11-10
+93,63,Fan,EQ-1093,operational,2024-11-10
+94,66,Emergency Light,EQ-1094,operational,2024-11-10
+95,69,Fire Extinguisher,EQ-1095,operational,2024-11-10
+96,71,Smoke Detector,EQ-1096,operational,2024-11-10
+97,73,Sprinkler Head,EQ-1097,operational,2024-11-10
+98,76,Thermostat,EQ-1098,operational,2024-11-10
+99,78,Light Switch,EQ-1099,operational,2024-11-10
+100,81,Power Outlet,EQ-1100,operational,2024-11-10
+101,83,Data Port,EQ-1101,operational,2024-11-10
+102,86,Oxygen Outlet,EQ-1102,operational,2024-11-10
+103,89,Vacuum Outlet,EQ-1103,operational,2024-11-10
+104,91,Nitrous Oxide Outlet,EQ-1104,operational,2024-11-10
+105,93,Medical Air Outlet,EQ-1105,operational,2024-11-10
+106,96,Surgical Boom,EQ-1106,operational,2024-09-20
+107,99,Ceiling Pendant,EQ-1107,operational,2024-09-20
+108,102,Monitor Arm,EQ-1108,operational,2024-09-20
+109,104,Keyboard Tray,EQ-1109,operational,2024-09-20
+110,107,CPU Holder,EQ-1110,operational,2024-09-20
+111,108,Mouse Pad,EQ-1111,operational,2024-09-20
+112,110,Wrist Rest,EQ-1112,operational,2024-09-20
+113,113,Document Holder,EQ-1113,operational,2024-09-20
+114,116,Task Light,EQ-1114,operational,2024-09-20
+115,119,Magnifying Lamp,EQ-1115,operational,2024-09-20
+116,121,X-Ray Viewbox,EQ-1116,operational,2024-09-20
+117,123,Lead Apron Rack,EQ-1117,operational,2024-09-20
+118,126,Lead Apron,EQ-1118,operational,2024-09-20
+119,129,Thyroid Shield,EQ-1119,operational,2024-09-20
+120,131,Lead Glasses,EQ-1120,operational,2024-09-20
+121,133,Dosimeter,EQ-1121,operational,2024-09-20
+122,136,Radiation Sign,EQ-1122,operational,2024-09-20
+123,139,Laser Sign,EQ-1123,operational,2024-09-20
+124,141,Biohazard Sign,EQ-1124,operational,2024-09-20
+125,143,High Voltage Sign,EQ-1125,operational,2024-09-20
+126,144,No Smoking Sign,EQ-1126,operational,2024-09-20
+127,146,Silence Sign,EQ-1127,operational,2024-09-20
+128,147,Visiting Hours Sign,EQ-1128,operational,2024-09-20
+129,149,Department Sign,EQ-1129,operational,2024-09-20
+130,150,Room Number Plate,EQ-1130,operational,2024-09-20
+131,2,Bed Pan,EQ-1131,operational,2024-11-25
+132,4,Urinal,EQ-1132,operational,2024-11-25
+133,7,Emesis Basin,EQ-1133,operational,2024-11-25
+134,11,Wash Basin,EQ-1134,operational,2024-11-25
+135,14,Pitcher,EQ-1135,operational,2024-11-25
+136,17,Cup,EQ-1136,operational,2024-11-25
+137,23,Straw,EQ-1137,decommissioned,2023-01-01
+138,28,Feeding Tube,EQ-1138,operational,2024-11-15
+139,34,Catheter,EQ-1139,broken,2024-11-10
+140,36,Drainage Bag,EQ-1140,operational,2024-11-15
+141,39,Ostomy Bag,EQ-1141,operational,2024-11-15
+142,46,Incontinence Pad,EQ-1142,operational,2024-11-25
+143,54,Diaper,EQ-1143,operational,2024-11-25
+144,58,Wipes,EQ-1144,operational,2024-11-25
+145,62,Lotion,EQ-1145,operational,2024-11-25
+146,67,Powder,EQ-1146,operational,2024-11-25
+147,74,Barrier Cream,EQ-1147,operational,2024-11-25
+148,79,Shampoo,EQ-1148,operational,2024-11-25
+149,84,Body Wash,EQ-1149,operational,2024-11-25
+150,87,Toothbrush,EQ-1150,operational,2024-11-25

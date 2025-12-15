@@ -1,0 +1,151 @@
+team_id,name,specialization,created_at
+1,Alpha Cardiology,Cardiology,2020-01-10 08:00:00
+2,Beta Neurology,Neurology,2020-02-15 09:30:00
+3,Gamma Therapy,Therapy,2020-03-20 08:15:00
+4,Delta Surgery,Surgery,2020-04-25 07:45:00
+5,Epsilon Pediatrics,Pediatrics,2020-05-30 10:00:00
+6,Zeta Orthopedics,Orthopedics,2020-06-05 11:20:00
+7,Eta Dermatology,Dermatology,2020-07-10 13:00:00
+8,Theta ENT,Otolaryngology,2020-08-15 14:10:00
+9,Iota Gynecology,Gynecology,2020-09-20 09:00:00
+10,Kappa Dentistry,Dentistry,2020-10-25 12:30:00
+11,Lambda Oncology,Oncology,2020-11-30 08:45:00
+12,Mu Psychiatry,Psychiatry,2020-12-05 15:00:00
+13,Nu Urology,Urology,2021-01-10 10:30:00
+14,Xi Endocrinology,Endocrinology,2021-02-15 11:45:00
+15,Omicron Gastro,Gastroenterology,2021-03-20 09:15:00
+16,Pi Cardiology,Cardiology,2021-04-25 08:00:00
+17,Rho Neurology,Neurology,2021-05-30 09:30:00
+18,Sigma Therapy,Therapy,2021-06-05 08:15:00
+19,Tau Surgery,Surgery,2021-07-10 07:45:00
+20,Upsilon Pediatrics,Pediatrics,2021-08-15 10:00:00
+21,Phi Orthopedics,Orthopedics,2021-09-20 11:20:00
+22,Chi Dermatology,Dermatology,2021-10-25 13:00:00
+23,Psi ENT,Otolaryngology,2021-11-30 14:10:00
+24,Omega Gynecology,Gynecology,2021-12-05 09:00:00
+25,Alpha Dentistry,Dentistry,2022-01-10 12:30:00
+26,Beta Oncology,Oncology,2022-02-15 08:45:00
+27,Gamma Psychiatry,Psychiatry,2022-03-20 15:00:00
+28,Delta Urology,Urology,2022-04-25 10:30:00
+29,Epsilon Endocrinology,Endocrinology,2022-05-30 11:45:00
+30,Zeta Gastro,Gastroenterology,2022-06-05 09:15:00
+31,Eta Cardiology,Cardiology,2022-07-10 08:00:00
+32,Theta Neurology,Neurology,2022-08-15 09:30:00
+33,Iota Therapy,Therapy,2022-09-20 08:15:00
+34,Kappa Surgery,Surgery,2022-10-25 07:45:00
+35,Lambda Pediatrics,Pediatrics,2022-11-30 10:00:00
+36,Mu Orthopedics,Orthopedics,2022-12-05 11:20:00
+37,Nu Dermatology,Dermatology,2023-01-10 13:00:00
+38,Xi ENT,Otolaryngology,2023-02-15 14:10:00
+39,Omicron Gynecology,Gynecology,2023-03-20 09:00:00
+40,Pi Dentistry,Dentistry,2023-04-25 12:30:00
+41,Rho Oncology,Oncology,2023-05-30 08:45:00
+42,Sigma Psychiatry,Psychiatry,2023-06-05 15:00:00
+43,Tau Urology,Urology,2023-07-10 10:30:00
+44,Upsilon Endocrinology,Endocrinology,2023-08-15 11:45:00
+45,Phi Gastro,Gastroenterology,2023-09-20 09:15:00
+46,Chi Cardiology,Cardiology,2023-10-25 08:00:00
+47,Psi Neurology,Neurology,2023-11-30 09:30:00
+48,Omega Therapy,Therapy,2023-12-05 08:15:00
+49,Alpha Surgery,Surgery,2024-01-10 07:45:00
+50,Beta Pediatrics,Pediatrics,2024-02-15 10:00:00
+51,Emergency Team 1,Emergency,2020-03-01 00:00:00
+52,Emergency Team 2,Emergency,2020-03-05 00:00:00
+53,Lab Team A,Laboratory,2020-04-10 09:00:00
+54,Lab Team B,Laboratory,2020-04-15 09:00:00
+55,Diagnostic Team 1,Diagnostic,2020-05-20 08:30:00
+56,Diagnostic Team 2,Diagnostic,2020-05-25 08:30:00
+57,Support Staff A,Administration,2019-01-01 09:00:00
+58,Support Staff B,Administration,2019-01-05 09:00:00
+59,Maintenance Crew 1,Maintenance,2019-02-10 07:00:00
+60,Maintenance Crew 2,Maintenance,2019-02-15 07:00:00
+61,Kyiv Cardio Team,Cardiology,2020-06-01 08:00:00
+62,Lviv Neuro Group,Neurology,2020-06-10 09:00:00
+63,Odesa Therapy Unit,Therapy,2020-06-20 08:30:00
+64,Dnipro Surgery Squad,Surgery,2020-07-01 07:30:00
+65,Kharkiv Peds Care,Pediatrics,2020-07-10 10:00:00
+66,Poltava Ortho Team,Orthopedics,2020-07-20 11:00:00
+67,Vinnytsia Derm Group,Dermatology,2020-08-01 13:00:00
+68,Zaporizhzhia ENT Unit,Otolaryngology,2020-08-10 14:00:00
+69,Lutsk Gyn Squad,Gynecology,2020-08-20 09:30:00
+70,Uzhhorod Dent Care,Dentistry,2020-09-01 12:00:00
+71,Chernivtsi Onco Team,Oncology,2020-09-10 08:30:00
+72,Rivne Psych Group,Psychiatry,2020-09-20 15:30:00
+73,Ternopil Uro Unit,Urology,2020-10-01 10:30:00
+74,Frankivsk Endo Squad,Endocrinology,2020-10-10 11:30:00
+75,Zhytomyr Gastro Care,Gastroenterology,2020-10-20 09:00:00
+76,Team Red,Cardiology,2021-01-05 08:00:00
+77,Team Blue,Neurology,2021-01-15 09:00:00
+78,Team Green,Therapy,2021-01-25 08:30:00
+79,Team Yellow,Surgery,2021-02-05 07:30:00
+80,Team Orange,Pediatrics,2021-02-15 10:00:00
+81,Team Purple,Orthopedics,2021-02-25 11:00:00
+82,Team Black,Dermatology,2021-03-05 13:00:00
+83,Team White,Otolaryngology,2021-03-15 14:00:00
+84,Team Gold,Gynecology,2021-03-25 09:30:00
+85,Team Silver,Dentistry,2021-04-05 12:00:00
+86,Team Bronze,Oncology,2021-04-15 08:30:00
+87,Team Platinum,Psychiatry,2021-04-25 15:30:00
+88,Team Iron,Urology,2021-05-05 10:30:00
+89,Team Copper,Endocrinology,2021-05-15 11:30:00
+90,Team Steel,Gastroenterology,2021-05-25 09:00:00
+91,Rapid Response 1,Emergency,2021-06-01 00:00:00
+92,Rapid Response 2,Emergency,2021-06-10 00:00:00
+93,Research Unit A,Research,2021-06-20 09:00:00
+94,Research Unit B,Research,2021-07-01 09:00:00
+95,Consulting Group X,Consultation,2021-07-10 10:00:00
+96,Consulting Group Y,Consultation,2021-07-20 10:00:00
+97,Specialists Alpha,General,2021-08-01 09:00:00
+98,Specialists Beta,General,2021-08-10 09:00:00
+99,Night Shift A,General,2021-08-20 20:00:00
+100,Night Shift B,General,2021-09-01 20:00:00
+101,Cardio North,Cardiology,2022-01-10 08:00:00
+102,Neuro South,Neurology,2022-01-20 09:00:00
+103,Therapy East,Therapy,2022-02-01 08:30:00
+104,Surgery West,Surgery,2022-02-10 07:30:00
+105,Peds Center,Pediatrics,2022-02-20 10:00:00
+106,Ortho Clinic,Orthopedics,2022-03-01 11:00:00
+107,Derm Spot,Dermatology,2022-03-10 13:00:00
+108,ENT World,Otolaryngology,2022-03-20 14:00:00
+109,Gyn Health,Gynecology,2022-04-01 09:30:00
+110,Dent Smile,Dentistry,2022-04-10 12:00:00
+111,Onco Hope,Oncology,2022-04-20 08:30:00
+112,Psych Mind,Psychiatry,2022-05-01 15:30:00
+113,Uro Life,Urology,2022-05-10 10:30:00
+114,Endo Balance,Endocrinology,2022-05-20 11:30:00
+115,Gastro Digest,Gastroenterology,2022-06-01 09:00:00
+116,Cardio Plus,Cardiology,2023-01-15 08:00:00
+117,Neuro Plus,Neurology,2023-01-25 09:00:00
+118,Therapy Plus,Therapy,2023-02-05 08:30:00
+119,Surgery Plus,Surgery,2023-02-15 07:30:00
+120,Peds Plus,Pediatrics,2023-02-25 10:00:00
+121,Ortho Plus,Orthopedics,2023-03-05 11:00:00
+122,Derm Plus,Dermatology,2023-03-15 13:00:00
+123,ENT Plus,Otolaryngology,2023-03-25 14:00:00
+124,Gyn Plus,Gynecology,2023-04-05 09:30:00
+125,Dent Plus,Dentistry,2023-04-15 12:00:00
+126,Onco Plus,Oncology,2023-04-25 08:30:00
+127,Psych Plus,Psychiatry,2023-05-05 15:30:00
+128,Uro Plus,Urology,2023-05-15 10:30:00
+129,Endo Plus,Endocrinology,2023-05-25 11:30:00
+130,Gastro Plus,Gastroenterology,2023-06-05 09:00:00
+131,Elite Cardio,Cardiology,2023-07-10 08:00:00
+132,Elite Neuro,Neurology,2023-07-20 09:00:00
+133,Elite Therapy,Therapy,2023-08-01 08:30:00
+134,Elite Surgery,Surgery,2023-08-10 07:30:00
+135,Elite Peds,Pediatrics,2023-08-20 10:00:00
+136,Elite Ortho,Orthopedics,2023-09-01 11:00:00
+137,Elite Derm,Dermatology,2023-09-10 13:00:00
+138,Elite ENT,Otolaryngology,2023-09-20 14:00:00
+139,Elite Gyn,Gynecology,2023-10-01 09:30:00
+140,Elite Dent,Dentistry,2023-10-10 12:00:00
+141,Elite Onco,Oncology,2023-10-20 08:30:00
+142,Elite Psych,Psychiatry,2023-11-01 15:30:00
+143,Elite Uro,Urology,2023-11-10 10:30:00
+144,Elite Endo,Endocrinology,2023-11-20 11:30:00
+145,Elite Gastro,Gastroenterology,2023-12-01 09:00:00
+146,Prime Cardio,Cardiology,2024-01-10 08:00:00
+147,Prime Neuro,Neurology,2024-01-20 09:00:00
+148,Prime Surgery,Surgery,2024-02-01 07:30:00
+149,Prime Peds,Pediatrics,2024-02-10 10:00:00
+150,Prime Dent,Dentistry,2024-02-20 12:00:00
