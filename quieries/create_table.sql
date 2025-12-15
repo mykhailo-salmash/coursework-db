@@ -42,7 +42,8 @@ CREATE TABLE Worker (
   supervisor_id INT,
   CONSTRAINT FK_Worker_team_id
     FOREIGN KEY (team_id)
-      REFERENCES Team(team_id),
+      REFERENCES Team(team_id)
+      ON DELETE RESTRICT,
   CONSTRAINT FK_Worker_supervisor_id
     FOREIGN KEY (supervisor_id)
       REFERENCES Worker(worker_id),
@@ -57,7 +58,8 @@ CREATE TABLE Schedule (
   type SCHEDULE_TYPE NOT NULL,
   CONSTRAINT FK_Schedule_worker_id
     FOREIGN KEY (worker_id)
-      REFERENCES Worker(worker_id),
+      REFERENCES Worker(worker_id)
+      ON DELETE CASCADE,
   CONSTRAINT chk_schedule_time CHECK (end_time > start_time)
 );
 
@@ -75,16 +77,18 @@ CREATE TABLE Room (
   room_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   facility_id INT NOT NULL,
   team_id INT,
-  room_number VARCHAR(20) NOT NULL,
+  room_number VARCHAR(50) NOT NULL,
   type ROOM_TYPE NOT NULL,
   capacity INT NOT NULL,
   status ROOM_STATUS NOT NULL DEFAULT 'available',
   CONSTRAINT FK_Room_facility_id
     FOREIGN KEY (facility_id)
-      REFERENCES Facility(facility_id),
+      REFERENCES Facility(facility_id)
+      ON DELETE RESTRICT,
   CONSTRAINT FK_Room_team_id
     FOREIGN KEY (team_id)
-      REFERENCES Team(team_id),
+      REFERENCES Team(team_id)
+      ON DELETE SET NULL,
   CONSTRAINT chk_room_capacity CHECK (capacity > 0),
   CONSTRAINT unq_room_number_facility UNIQUE (facility_id, room_number)
 );
@@ -101,16 +105,20 @@ CREATE TABLE Appointment (
   notes TEXT,
   CONSTRAINT FK_Appointment_patient_id
     FOREIGN KEY (patient_id)
-      REFERENCES Patient(patient_id),
+      REFERENCES Patient(patient_id)
+      ON DELETE RESTRICT,
   CONSTRAINT FK_Appointment_procedure_id
     FOREIGN KEY (procedure_id)
-      REFERENCES Procedure(procedure_id),
+      REFERENCES Procedure(procedure_id)
+      ON DELETE RESTRICT,
   CONSTRAINT FK_Appointment_worker_id
     FOREIGN KEY (worker_id)
-      REFERENCES Worker(worker_id),
+      REFERENCES Worker(worker_id)
+      ON DELETE RESTRICT, 
   CONSTRAINT FK_Appointment_room_id
     FOREIGN KEY (room_id)
-      REFERENCES Room(room_id),
+      REFERENCES Room(room_id)
+      ON DELETE RESTRICT,
   CONSTRAINT chk_appointment_time CHECK (end_time > start_time)
 );
 
@@ -122,6 +130,7 @@ CREATE TABLE Result (
   CONSTRAINT FK_Result_appointment_id
     FOREIGN KEY (appointment_id)
       REFERENCES Appointment(appointment_id)
+      ON DELETE CASCADE
 );
 
 CREATE TABLE Equipment (
@@ -134,4 +143,5 @@ CREATE TABLE Equipment (
   CONSTRAINT FK_Equipment_room_id
     FOREIGN KEY (room_id)
       REFERENCES Room(room_id)
+      ON DELETE RESTRICT
 );
