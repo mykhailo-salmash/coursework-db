@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS btree_gist;
+
 CREATE TYPE WORKER_ROLE AS ENUM ('doctor', 'nurse', 'technician', 'administrator', 'specialist');
 CREATE TYPE SCHEDULE_TYPE AS ENUM ('work_shift', 'break', 'vacation', 'sick_leave');
 CREATE TYPE APPOINTMENT_STATUS AS ENUM ('scheduled', 'in_progress', 'completed', 'cancelled');
@@ -13,19 +15,20 @@ CREATE TABLE Patient (
   date_of_birth DATE NOT NULL,
   phone_number VARCHAR(20),
   email VARCHAR(255),
-  CONSTRAINT chk_patient_age CHECK (date_of_birth < CURRENT_DATE)
+  CONSTRAINT chk_patient_age CHECK (date_of_birth < CURRENT_DATE),
+  CONSTRAINT unq_patient_identity UNIQUE (first_name, last_name, date_of_birth)
 );
 
 CREATE TABLE Facility (
   facility_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL UNIQUE,
   type FACILITY_TYPE NOT NULL,
   location POINT NOT NULL
 );
 
 CREATE TABLE Team (
   team_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL UNIQUE,
   specialization VARCHAR(255),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
@@ -60,12 +63,17 @@ CREATE TABLE Schedule (
     FOREIGN KEY (worker_id)
       REFERENCES Worker(worker_id)
       ON DELETE CASCADE,
-  CONSTRAINT chk_schedule_time CHECK (end_time > start_time)
+  CONSTRAINT chk_schedule_time CHECK (end_time > start_time),
+  CONSTRAINT excl_schedule_overlap 
+    EXCLUDE USING gist (
+      worker_id WITH =,
+      tsrange(start_time, end_time) WITH &&
+    )
 );
 
 CREATE TABLE Procedure (
   procedure_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-  name VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL UNIQUE,
   duration INTERVAL NOT NULL,
   price DECIMAL(10, 2) NOT NULL,
   required_role WORKER_ROLE NOT NULL,
@@ -119,7 +127,22 @@ CREATE TABLE Appointment (
     FOREIGN KEY (room_id)
       REFERENCES Room(room_id)
       ON DELETE RESTRICT,
-  CONSTRAINT chk_appointment_time CHECK (end_time > start_time)
+  CONSTRAINT chk_appointment_time CHECK (end_time > start_time),
+  CONSTRAINT excl_room_overlap 
+    EXCLUDE USING gist (
+      room_id WITH =,
+      tsrange(start_time, end_time) WITH &&
+    ),
+  CONSTRAINT excl_worker_overlap 
+    EXCLUDE USING gist (
+      worker_id WITH =,
+      tsrange(start_time, end_time) WITH &&
+    ),
+  CONSTRAINT excl_patient_overlap 
+    EXCLUDE USING gist (
+      patient_id WITH =,
+      tsrange(start_time, end_time) WITH &&
+    )
 );
 
 CREATE TABLE Result (
