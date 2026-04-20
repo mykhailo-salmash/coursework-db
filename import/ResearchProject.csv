@@ -1,0 +1,13 @@
+room_id,title,status,start_date,end_date,result_json
+,Research Project 1,on_hold,2025-03-11,2025-09-30,
+10,Research Project 2,cancelled,2024-11-29,,
+52,Research Project 3,active,2025-05-23,,
+,Research Project 4,on_hold,2025-11-16,2026-10-08,
+45,Research Project 5,planning,2024-07-18,2025-04-17,
+70,Research Project 6,on_hold,2025-04-15,2025-10-15,
+71,Research Project 7,active,2025-01-03,,{}
+28,Research Project 8,completed,2024-05-17,2024-09-19,
+56,Research Project 9,cancelled,2024-05-06,2025-04-15,{}
+31,Research Project 10,active,2025-12-19,2026-07-23,{}
+41,Research Project 11,planning,2023-12-28,,
+21,Research Project 12,on_hold,2024-12-23,,

@@ -1,0 +1,10 @@
+name,unit
+blood_serum,ml
+blood_plasma,ml
+whole_blood,ml
+urine,ml
+stool,mg
+tissue,mg
+swab,mg
+csf,mg
+other,mg
